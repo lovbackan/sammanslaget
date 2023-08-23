@@ -19,9 +19,5 @@ html {
 }
 
 .scale-up-anchor {
-  scale: 1.3;
-}
-
-.scale-down-anchor {
-  scale: 1;
+  font-size: 1.4rem;
 }
