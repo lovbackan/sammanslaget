@@ -9,7 +9,6 @@ const sectionFiveAnchor = document.querySelector('#sectionFiveAnchor');
 const sectionSixAnchor = document.querySelector('#sectionSixAnchor');
 const sectionSevenAnchor = document.querySelector('#sectionSevenAnchor');
 
-
 const navItems = [];
 
 //function pushing all the navanchors into array.
@@ -50,14 +49,14 @@ function resetNavScaleing(navItems) {
   });
 }
 
+//getting window height.
 const height =
   window.innerHeight ||
   document.documentElement.clientHeight ||
   document.body.clientHeight;
 
+//eventlistener to determine which section of the page is visible and scale the corresponding navanchor.
 scrollContainer.addEventListener('scroll', function () {
-  // const html = document.documentElement;
-
   const scrollY = scrollContainer.scrollTop;
 
   if (scrollY + height <= height * 1.5 || scrollY == 0) {

@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .scroll-container {
   height: 100vh;
   overflow: auto;
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 .scroll-area {
   scroll-snap-align: start;
+  scroll-behavior: smooth;
 }
 
 .scale-up-anchor {
