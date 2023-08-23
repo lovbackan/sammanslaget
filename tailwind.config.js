@@ -5,6 +5,7 @@ export default {
     fontFamily: {
       gloria: ["Gloria Hallelujah", "sans-serif"],
       mali: ["Mali", "sans-serif"],
+      bowlby: ["Bowlby One", "sans-serif"],
     },
     extend: {},
   },
