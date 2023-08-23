@@ -1,5 +1,5 @@
 # sammanslaget
 
-One week challenge to update YRGOs admission test for future generations. The challenge consist of comming up with a new concept for admission test for one of the following classes: Game programmer, Web developer or UX-designer, we choose the Game programmer class and create a website to present the new idea. Our idea was to zoom out of the idea of admissions test only being the test and focus instead on the experience of coming to Yrgo to do the test with a small modificiation to make the test more fun.
+One-week challenge: Updating YRGO's admission test for future generations. The challenge consists of coming up with a new concept for the admission test for one of the following classes: Game Programmer, Web Developer, or UX Designer. We chose the Game Programmer class and created a website to present the new idea. Our idea was to expand the concept of the admission test beyond just the test itself and instead focus on the experience of visiting YRGO to take the test. We also had some ideas how you could make the admission test questions more enjoyable for the users. Our group consisted of one UX Designer, one Game Programmer, and two Web Developers.
 
 The site was created by [Petter Jakobsson](https://github.com/jaken92) & [Simon Lövbacka](https://github.com/lovbackan)
