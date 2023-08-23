@@ -9,6 +9,7 @@ const sectionFiveAnchor = document.querySelector('#sectionFiveAnchor');
 const sectionSixAnchor = document.querySelector('#sectionSixAnchor');
 const sectionSevenAnchor = document.querySelector('#sectionSevenAnchor');
 
+
 const navItems = [];
 
 //function pushing all the navanchors into array.

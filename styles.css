@@ -12,10 +12,10 @@
   scroll-snap-align: start;
 }
 
-.scaleUpAnchor {
+.scale-up-anchor {
   scale: 1.3;
 }
 
-.scaleDownAnchor {
-  scale: 1.1;
+.scale-down-anchor {
+  scale: 1;
 }
