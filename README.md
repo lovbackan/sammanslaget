@@ -4,4 +4,4 @@ One-week challenge: Updating YRGO's admission test for future generations. The c
 
 The site was created by [Petter Jakobsson](https://github.com/jaken92) & [Simon Lövbacka](https://github.com/lovbackan)
 
-Deployed at (https://mspn-sammanslaget.netlify.app)
+Deployed at https://mspn-sammanslaget.netlify.app
