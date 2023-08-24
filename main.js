@@ -20,7 +20,8 @@ function navElementsToArray(
   element4,
   element5,
   element6,
-  element7
+  element7,
+  element8
 ) {
   navItems.push(
     element1,
@@ -29,7 +30,8 @@ function navElementsToArray(
     element4,
     element5,
     element6,
-    element7
+    element7,
+    element8
   );
 }
 
@@ -40,7 +42,8 @@ navElementsToArray(
   sectionFourAnchor,
   sectionFiveAnchor,
   sectionSixAnchor,
-  sectionSevenAnchor
+  sectionSevenAnchor,
+  sectionEightAnchor
 );
 
 //function reseting the scale of navitems to 1.0.
@@ -96,6 +99,6 @@ scrollContainer.addEventListener('scroll', function () {
   }
   if (scrollY + height >= height * 7.5) {
     resetNavScaleing(navItems);
-    scaleUpNavElement(sectionSevenAnchor);
+    scaleUpNavElement(sectionEightAnchor);
   }
 });
