@@ -161,52 +161,37 @@
       </section>
       <section
         id="section-five"
-        class="scroll-area lg:h-screen bg-gradient-to-b from-green-200 to-blue-200 flex justify-center items-center font-mali text-lg flex-col"
+        class="scroll-area lg:h-screen bg-gradient-to-b from-green-200 to-blue-200 flex justify-center items-center font-mali text-lg flex-row"
       >
         <div
-          id="first-row-example"
-          class="flex flex-row justify-around w-full h-1/2 items-center"
+          id="game-example"
+          class="flex flex-col justify-center items-center relative h-4/5 w-4/5 z-10"
         >
-          <div id="game-example" class="flex flex-col justify-center relative">
+          <img
+            src="/textblob/textblob_demo2.svg"
+            class="h-full w-full z-0 absolute"
+            alt="blob"
+          />
+          <h2 class="z-10">Para ihop rätt kod exempel</h2>
+          <video
+            controls
+            autoplay
+            src="./public/videos/Snake.mp4"
+            class="h-32"
+          ></video>
+          <div class="flex flex-row justify-between mt-6">
             <img
-              src="/textblob/textblob_demo2.svg"
-              class="h-full w-full z-0 absolute"
-              alt="blob"
+              class="h-28 z-10 rounded-md cursor-pointer pop-img border-2 border-black"
+              src="/public/images/Ex2.png"
+              alt=""
             />
-            <div class="z-10">
-              <h2>Para ihop rätt kod exempel med spelets</h2>
-              <video
-                controls
-                autoplay
-                src="./public/videos/Snake.mp4"
-                class="h-48"
-              ></video>
-            </div>
-            <div class="flex flex-row justify-between mt-6">
-              <img
-                class="h-28 z-10 rounded-md cursor-pointer pop-img"
-                src="/public/images/Ex2.png"
-                alt=""
-              />
-              <img
-                class="h-28 z-10 rounded-md cursor-pointer pop-img"
-                src="/public/images/Ex2.png"
-                alt=""
-              />
-              <img
-                class="h-28 z-10 rounded-md cursor-pointer pop-img"
-                src="/public/images/Ex2.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div
-            id="wrong-code-example"
-            class="flex flex-col bg-slate-600 justify-center h-1/2"
-          >
-            <h2>Hitta felet i koden</h2>
             <img
-              class="h-1/2 z-50 rounded-md cursor-pointer pop-img"
+              class="h-28 z-10 rounded-md cursor-pointer pop-im border-2 border-black"
+              src="/public/images/Ex2.png"
+              alt=""
+            />
+            <img
+              class="h-28 z-10 rounded-md cursor-pointer pop-img border-2 border-black"
               src="/public/images/Ex2.png"
               alt=""
             />
@@ -214,27 +199,49 @@
         </div>
 
         <div
-          id="second-row-example"
-          class="flex flex-row justify-around h-1/2 w-full items-center"
+          id="wrong-code-example"
+          class="flex flex-col justify-center h-2/5 w-2/5 relative align-center items-center"
         >
-          <div
-            id="open-question"
-            class="flex flex-col bg-slate-500 justify-center w-1/4 h-3/4"
-          >
-            <h2>Beskriv med egna ord</h2>
-            <p>Vad är en array?</p>
-          </div>
-          <div
-            id="ai-question"
-            class="flex flex-col bg-slate-800 justify-center w-1/4 h-3/4"
-          >
-            <h2>AI fråga</h2>
-            <p>
-              Du håller på att skapa ett Pacman-liknande spel i C#. Hur skulle
-              du fråga en textbaserad AI för att få hjälp med att kunna äta
-              spökena utan att nämna Pacman?
-            </p>
-          </div>
+          <img
+            src="/textblob/textblob_demo1.svg"
+            class="h-full w-full z-0 absolute rotate-180"
+            alt="blob"
+          />
+          <h2 class="z-10">Hitta felet i koden</h2>
+          <img
+            class="h-44 w-32 z-10 rounded-md cursor-pointer pop-img border-2 border-black"
+            src="/public/images/Ex2.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          id="open-question"
+          class="flex flex-col justify-center h-2/5 w-2/5 relative align-center items-center"
+        >
+          <img
+            src="/textblob/textblob_demo3.svg"
+            class="h-full w-full z-0 absolute"
+            alt="blob"
+          />
+          <h2 class="z-10">Beskriv med egna ord</h2>
+          <p class="z-10">Vad är en array?</p>
+        </div>
+        <div
+          id="ai-question"
+          class="flex flex-col justify-center h-3/5 w-3/5 relative align-center items-center"
+        >
+          <img
+            src="/textblob/textblob_demo4.svg"
+            class="h-full w-full z-0 absolute"
+            alt="blob"
+          />
+          <h2 class="z-10">AI fråga</h2>
+          <p class="z-10">
+            Du håller på att skapa ett Pacman-liknande spel i C#. Hur skulle du
+            fråga en textbaserad AI för att få hjälp med att kunna äta spökena
+            utan att nämna Pacman?
+          </p>
         </div>
       </section>
       <section
