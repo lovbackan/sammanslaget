@@ -8,6 +8,7 @@ const sectionFourAnchor = document.querySelector('#sectionFourAnchor');
 const sectionFiveAnchor = document.querySelector('#sectionFiveAnchor');
 const sectionSixAnchor = document.querySelector('#sectionSixAnchor');
 const sectionSevenAnchor = document.querySelector('#sectionSevenAnchor');
+const sectionEightAnchor = document.querySelector('#sectionEightAnchor');
 
 const navItems = [];
 
@@ -90,6 +91,10 @@ scrollContainer.addEventListener('scroll', function () {
     scaleUpNavElement(sectionSixAnchor);
   }
   if (scrollY + height >= height * 6.5) {
+    resetNavScaleing(navItems);
+    scaleUpNavElement(sectionSevenAnchor);
+  }
+  if (scrollY + height >= height * 7.5) {
     resetNavScaleing(navItems);
     scaleUpNavElement(sectionSevenAnchor);
   }
