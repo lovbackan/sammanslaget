@@ -6,6 +6,7 @@ export default {
       gloria: ["Gloria Hallelujah", "sans-serif"],
       mali: ["Mali", "sans-serif"],
       bowlby: ["Bowlby One", "sans-serif"],
+      maliBold: ["Mali-Bold", "sans-serif"],
     },
     extend: {},
   },

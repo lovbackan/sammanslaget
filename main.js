@@ -1,14 +1,14 @@
-import './styles.css';
+import "./styles.css";
 
-const scrollContainer = document.querySelector('.scroll-container');
-const sectionOneAnchor = document.querySelector('#sectionOneAnchor');
-const sectionTwoAnchor = document.querySelector('#sectionTwoAnchor');
-const sectionThreeAnchor = document.querySelector('#sectionThreeAnchor');
-const sectionFourAnchor = document.querySelector('#sectionFourAnchor');
-const sectionFiveAnchor = document.querySelector('#sectionFiveAnchor');
-const sectionSixAnchor = document.querySelector('#sectionSixAnchor');
-const sectionSevenAnchor = document.querySelector('#sectionSevenAnchor');
-const sectionEightAnchor = document.querySelector('#sectionEightAnchor');
+const scrollContainer = document.querySelector(".scroll-container");
+const sectionOneAnchor = document.querySelector("#sectionOneAnchor");
+const sectionTwoAnchor = document.querySelector("#sectionTwoAnchor");
+const sectionThreeAnchor = document.querySelector("#sectionThreeAnchor");
+const sectionFourAnchor = document.querySelector("#sectionFourAnchor");
+const sectionFiveAnchor = document.querySelector("#sectionFiveAnchor");
+const sectionSixAnchor = document.querySelector("#sectionSixAnchor");
+const sectionSevenAnchor = document.querySelector("#sectionSevenAnchor");
+const sectionEightAnchor = document.querySelector("#sectionEightAnchor");
 
 const navItems = [];
 
@@ -21,7 +21,7 @@ function navElementsToArray(
   element5,
   element6,
   element7,
-  element8
+  element8,
 ) {
   navItems.push(
     element1,
@@ -31,7 +31,7 @@ function navElementsToArray(
     element5,
     element6,
     element7,
-    element8
+    element8,
   );
 }
 
@@ -43,19 +43,19 @@ navElementsToArray(
   sectionFiveAnchor,
   sectionSixAnchor,
   sectionSevenAnchor,
-  sectionEightAnchor
+  sectionEightAnchor,
 );
 
 //function reseting the scale of navitems to 1.0.
 function resetNavScaleing(navItems) {
   navItems.forEach((element) => {
     element.style.scale = 1.0;
-    element.classList.remove('scale-up-anchor');
+    element.classList.remove("scale-up-anchor");
   });
 }
 
 function scaleUpNavElement(anchor) {
-  anchor.classList.add('scale-up-anchor');
+  anchor.classList.add("scale-up-anchor");
 }
 
 //getting window height.
@@ -65,7 +65,7 @@ const height =
   document.body.clientHeight;
 
 //eventlistener to determine which section of the page is visible and scale the corresponding navanchor.
-scrollContainer.addEventListener('scroll', function () {
+scrollContainer.addEventListener("scroll", function () {
   const scrollY = scrollContainer.scrollTop;
 
   if (scrollY + height <= height * 1.5 || scrollY == 0) {
