@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -161,25 +161,62 @@
       </section>
       <section
         id="section-five"
-        class="scroll-area lg:h-screen bg-gradient-to-b from-green-200 to-blue-200 flex justify-center items-center"
+        class="scroll-area lg:h-screen bg-gradient-to-b from-green-200 to-blue-200 flex justify-center items-center font-mali text-lg flex-col"
       >
         <div
-          class="flex flex-col justify-center items-center h-4/5 w-4/5 relative"
+          id="first-row-example"
+          class="flex flex-row justify-around w-3/4 h-3/4"
         >
-          <h1 class="text-center z-10 relative text-3xl font-bowlby">Demo</h1>
-          <div class="flex-start w-full mb-4">
+          <div id="game-example" class="flex flex-col bg-slate-700">
+            <div>
+              <h2>Para ihop rätt kod exempel med spelets</h2>
+              <video
+                controls
+                autoplay
+                src="./public/videos/Snake.mp4"
+                class="h-48"
+              ></video>
+            </div>
+            <div class="flex flex-row justify-between mt-6">
+              <img
+                class="h-28 z-50 rounded-md cursor-pointer pop-img"
+                src="/public/images/Ex2.png"
+                alt=""
+              />
+              <img
+                class="h-28 z-50 rounded-md cursor-pointer pop-img"
+                src="/public/images/Ex2.png"
+                alt=""
+              />
+              <img
+                class="h-28 z-50 rounded-md cursor-pointer pop-img"
+                src="/public/images/Ex2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div id="wrong-code-example" class="flex flex-col bg-slate-600">
+            <h2>Hitta felet i koden</h2>
             <img
-              class="h-48 z-50 rounded-md cursor-pointer pop-img"
+              class="h-fit z-50 rounded-md cursor-pointer pop-img"
               src="/public/images/Ex2.png"
               alt=""
             />
           </div>
-          <div class="flex-start w-full">
-            <img
-              class="h-48 z-50 rounded-md cursor-pointer pop-img"
-              src="/public/images/Ex2.png"
-              alt=""
-            />
+        </div>
+
+        <div id="second-row-example" class="flex flex-row justify-around w-3/4">
+          <div id="open-question" class="flex flex-col w-24 bg-slate-500">
+            <h2>Beskriv med egna ord</h2>
+            <p>Vad är en array?</p>
+          </div>
+          <div id="ai-question" class="flex flex-col bg-slate-800 w-40">
+            <h2>AI fråga</h2>
+            <p>
+              Du håller på att skapa ett Pacman-liknande spel i C#. Hur skulle
+              du fråga en textbaserad AI för att få hjälp med att kunna äta
+              spökena utan att nämna Pacman?
+            </p>
           </div>
         </div>
       </section>
