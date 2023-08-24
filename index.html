@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -165,9 +165,12 @@
       >
         <div
           id="first-row-example"
-          class="flex flex-row justify-around w-3/4 h-3/4"
+          class="flex flex-row justify-around w-full h-1/2 items-center"
         >
-          <div id="game-example" class="flex flex-col bg-slate-700">
+          <div
+            id="game-example"
+            class="flex flex-col bg-slate-700 justify-center"
+          >
             <div>
               <h2>Para ihop rätt kod exempel med spelets</h2>
               <video
@@ -195,22 +198,34 @@
               />
             </div>
           </div>
-          <div id="wrong-code-example" class="flex flex-col bg-slate-600">
+          <div
+            id="wrong-code-example"
+            class="flex flex-col bg-slate-600 justify-center h-1/2"
+          >
             <h2>Hitta felet i koden</h2>
             <img
-              class="h-fit z-50 rounded-md cursor-pointer pop-img"
+              class="h-1/2 z-50 rounded-md cursor-pointer pop-img"
               src="/public/images/Ex2.png"
               alt=""
             />
           </div>
         </div>
 
-        <div id="second-row-example" class="flex flex-row justify-around w-3/4">
-          <div id="open-question" class="flex flex-col w-24 bg-slate-500">
+        <div
+          id="second-row-example"
+          class="flex flex-row justify-around h-1/2 w-full items-center"
+        >
+          <div
+            id="open-question"
+            class="flex flex-col bg-slate-500 justify-center w-1/4 h-3/4"
+          >
             <h2>Beskriv med egna ord</h2>
             <p>Vad är en array?</p>
           </div>
-          <div id="ai-question" class="flex flex-col bg-slate-800 w-40">
+          <div
+            id="ai-question"
+            class="flex flex-col bg-slate-800 justify-center w-1/4 h-3/4"
+          >
             <h2>AI fråga</h2>
             <p>
               Du håller på att skapa ett Pacman-liknande spel i C#. Hur skulle
