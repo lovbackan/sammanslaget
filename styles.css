@@ -11,6 +11,7 @@ html {
   overflow: auto;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  position: relative;
 }
 
 .scroll-area {
