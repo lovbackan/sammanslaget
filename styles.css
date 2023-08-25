@@ -21,3 +21,9 @@ html {
 .scale-up-anchor {
   font-size: 1.4rem;
 }
+
+.focus {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
